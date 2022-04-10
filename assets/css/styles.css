@@ -414,6 +414,21 @@ img {
     background-image: linear-gradient(0deg, #08AEEA 0%, #2AF598 100%);    
     font-weight: 800;
 }
+.work-5:hover{
+  transition: .4s;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.3);
+  }
+
+.work-6{
+    padding: 2em;
+    color: white;
+    border-radius: 1em;
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.1);
+    background-color: #08AEEA;
+    /* background-image: linear-gradient(0deg, #08AEEA 0%, #2AF598 100%);     */
+    background: linear-gradient(90deg, #FC466B 0%, #3F5EFB 100%);
+    font-weight: 600;
+}
 
 /* ===== CONTACT =====*/
 .contact__input {
@@ -596,6 +611,17 @@ img {
     flex-direction: column;
   }
 
+  .card-01 {
+    /* box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); */
+    transition: 0.3s;
+    width: 100%;
+    color: #FF7F00;
+    border-radius: 1em;
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.1);
+    padding-top: 20px;
+    font-weight: 500;
+    padding-bottom: 20px;
+  }
   .card-1 {
     /* box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); */
     transition: 0.3s;
@@ -603,7 +629,7 @@ img {
     color: navy;
     border-radius: 1em;
     box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.1);
-  
+    padding-top: 20px;
     font-weight: 500;
     padding-bottom: 20px;
   }
@@ -640,7 +666,21 @@ img {
     font-weight: 500;
     padding-bottom: 20px;
   }
+  .card-5 {
+    /* box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); */
+    transition: 0.3s;
+    width: 100%;
+    color: #002952;
+    border-radius: 1em;
+    box-shadow: 10px 20px 60px rgba(0, 0, 0, 0.1);
   
+    font-weight: 500;
+    padding-bottom: 20px;
+  }
+  
+  .card-01:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  }
   .card-1:hover {
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
   }
@@ -653,11 +693,17 @@ img {
   .card-4:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
   }
+  .card-5:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
   
   .cardContainer {
     padding: 2px 16px;
   }
 
+  h4 {
+    text-align: center;
+  }
 
 .home {
     padding: 10rem 0 2rem;

@@ -4,6 +4,7 @@
 @import url('https://fonts.googleapis.com/css?family=Quicksand:400,500,700');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@800&family=Smooch+Sans:wght@500&display=swap');
 @import url("https://fonts.googleapis.com/css?family=Roboto:400,400i,700");
+@import url(https://fonts.googleapis.com/css?family=Signika);
 
 /*===== VARIABLES CSS =====*/
 :root {
@@ -595,50 +596,69 @@ img {
     flex-direction: column;
   }
 
-/* .btnWhatsapp {
-  border: 1px solid limegreen;
-  padding: 0.7rem 2rem;
-  background: limegreen;
-  color: #fff;
-  font-weight: 600;
-  cursor: pointer;
-  margin-top: 1rem;
-  font-size: 1rem;
-  border-radius: 1rem;
-}
-.btnLinkedin {
-  border: 1px solid #0057FF;
-  padding: 0.7rem 2rem;
-  background: #0057FF;
-  color: #fff;
-  font-weight: 600;
-  cursor: pointer;
-  margin-top: 1rem;
-  font-size: 1rem;
-  border-radius: 1rem;
-}
-.btnTwitter {
-  border: 1px solid dodgerblue;
-  padding: 0.7rem 2rem;
-  background: dodgerblue;
-  color: #fff;
-  font-weight: 600;
-  cursor: pointer;
-  margin-top: 1rem;
-  font-size: 1rem;
-  border-radius: 1rem;
-}
-.btnGithub {
-  border: 1px solid rgb(66, 61, 61);
-  padding: 0.7rem 2rem;
-  background: rgb(66, 61, 61);
-  color: #fff;
-  font-weight: 600;
-  cursor: pointer;
-  margin-top: 1rem;
-  font-size: 1rem;
-  border-radius: 1rem;
-} */
+  .card-1 {
+    /* box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); */
+    transition: 0.3s;
+    width: 100%;
+    color: navy;
+    border-radius: 1em;
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.1);
+  
+    font-weight: 500;
+    padding-bottom: 20px;
+  }
+  .card-2 {
+    /* box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); */
+    transition: 0.3s;
+    width: 100%;
+    color: #004900;
+    border-radius: 1em;
+    box-shadow: 10px 20px 60px rgba(0, 0, 0, 0.1);
+  
+    font-weight: 500;
+    padding-bottom: 20px;
+  }
+  .card-3 {
+    /* box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); */
+    transition: 0.3s;
+    width: 100%;
+    color: #002952;
+    border-radius: 1em;
+    box-shadow: 10px 20px 60px rgba(0, 0, 0, 0.1);
+  
+    font-weight: 500;
+    padding-bottom: 20px;
+  }
+  .card-4 {
+    /* box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); */
+    transition: 0.3s;
+    width: 100%;
+    color: #005CB8;
+    border-radius: 1em;
+    box-shadow: 10px 20px 60px rgba(0, 0, 0, 0.1);
+  
+    font-weight: 500;
+    padding-bottom: 20px;
+  }
+  
+  .card-1:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  }
+  .card-2:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  .card-3:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  .card-4:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  .cardContainer {
+    padding: 2px 16px;
+  }
+
+
 .home {
     padding: 10rem 0 2rem;
   }

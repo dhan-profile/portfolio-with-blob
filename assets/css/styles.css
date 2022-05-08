@@ -392,11 +392,14 @@ img {
 }
 .work-1{
   padding: 2em;
-  border-radius: 1em;
+  border-radius: 1.5em;
   box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.1);
   background-color: #FAD961;
   background-image: linear-gradient(90deg, #FAD961 0%, #F76B1C 100%);    
   font-weight: 600;
+  border-top-right-radius: 0%;
+  border-top-left-radius: 35%;
+  border-bottom-left-radius: 0%;
 }
 .work-3{
     padding: 2em;
@@ -408,11 +411,15 @@ img {
 }
 .work-5{
     padding: 2em;
+    height: 245px;
     border-radius: 1em;
     box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.1);
     background-color: #08AEEA;
     background-image: linear-gradient(0deg, #08AEEA 0%, #2AF598 100%);    
     font-weight: 800;
+    border-top-right-radius: 0%;
+    border-top-left-radius: 35%;
+    border-bottom-left-radius: 0%;
 }
 .work-5:hover{
   transition: .4s;
@@ -616,11 +623,10 @@ img {
     transition: 0.3s;
     width: 100%;
     color: #FF7F00;
-    border-radius: 1em;
+    border-radius: 1.5em;
     box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.1);
     padding-top: 20px;
     font-weight: 500;
-    padding-bottom: 20px;
   }
   .card-1 {
     /* box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); */
@@ -631,7 +637,7 @@ img {
     box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.1);
     padding-top: 20px;
     font-weight: 500;
-    padding-bottom: 20px;
+    padding-bottom: 2px;
   }
   .card-2 {
     /* box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); */
@@ -705,6 +711,10 @@ img {
     text-align: center;
   }
 
+p{
+  
+}
+
 .home {
     padding: 10rem 0 2rem;
   }
@@ -777,4 +787,21 @@ img {
 .verticalLine {
   border-left: 4px solid #4b42f5;
   height: 200px;
+}
+
+ /* Applying CSS to sphere */
+ .tagcloud {
+  display: inline-block;
+  top: 10px;
+  left: 3%;
+  font-weight: 500;
+  letter-spacing: 1px;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 22px;
+  width: 100px;
+}
+
+/* Change color of each text in sphere on hover   */
+.tagcloud--item:hover {
+  color: red ;
 }

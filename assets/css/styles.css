@@ -14,7 +14,8 @@
   /*Purple 260 - Red 355 - Blue 224 - Pink 340*/
   /* HSL color mode */
   --hue-color: 224;
-  --first-color: hsl(var(--hue-color), 89%, 60%);
+  --first-color: #8000ff;
+  /* --first-color: hsl(var(--hue-color), 89%, 60%); */
   --second-color: hsl(var(--hue-color), 56%, 12%);
   /*===== Fuente y tipografia =====*/
   --body-font: 'Poppins', sans-serif;
@@ -282,7 +283,9 @@ img {
 
 .about__img img {
   width: 200px;
-  border-radius: .5rem;
+  border-radius: .7rem;
+  background-color: #ffff00;
+  border: 3.5px solid black; 
 }
 
 /* ===== SKILLS =====*/
@@ -336,6 +339,14 @@ img {
   z-index: var(--z-back);
 }
 
+.skills__java {
+  width: 60%;
+  background-color: orange;
+}
+.skills__springboot {
+  width: 45%;
+  background-color: #00d200;
+}
 .skills__html {
   width: 69%;
   background-color: orangered;
@@ -343,14 +354,16 @@ img {
 
 .skills__css {
   width: 60%;
+  background-color: lightblue;
 }
 
 .skills__angular{
-  width: 70%;
+  width: 40%;
+    background-color: red;
 }
 
 .skills__ts {
-  width: 64%;
+  width: 35%;
   background-color: dodgerblue;
 }
 
@@ -364,7 +377,7 @@ img {
 }
 
 .skills__sql {
-  width: 60%;
+  width: 55%;
   background-color: sandybrown;
 }
 
@@ -405,7 +418,7 @@ img {
     padding: 2em;
     border-radius: 1em;
     box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.1);
-    background-color: #08AEEA;
+    background-color: #ea9b08;
     background-image: linear-gradient(0deg, #08AEEA 0%, #2AF598 100%);    
     font-weight: 800;
 }
@@ -425,6 +438,23 @@ img {
   transition: .4s;
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.3);
   }
+.work-7{
+    padding: 2em;
+    height: 235px;
+    border-radius: 1em;
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.1);
+    background-color: #ea08cc;
+    background-image: linear-gradient(0deg, #ea08df 0%, #dd2af5 100%);    
+    font-weight: 800;
+    border-top-right-radius: 0%;
+    border-top-left-radius: 35%;
+    border-bottom-left-radius: 0%;
+    color: black;
+}
+.work-7:hover{
+  transition: .4s;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.3);
+  }
 
 .work-6{
     padding: 2em;
@@ -435,6 +465,9 @@ img {
     /* background-image: linear-gradient(0deg, #08AEEA 0%, #2AF598 100%);     */
     background: linear-gradient(90deg, #FC466B 0%, #3F5EFB 100%);
     font-weight: 600;
+      border-top-right-radius: 0%;
+  border-top-left-radius: 35%;
+  border-bottom-left-radius: 0%;
 }
 
 /* ===== CONTACT =====*/
